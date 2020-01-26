@@ -14,5 +14,6 @@ namespace Lab0MiguelRecinos.Peliculas
         public string Nombre;
         public string Estreno;
         public string Director;
+        public List<Peliculas> peliculas = new List<Peliculas>();
     }
 }
